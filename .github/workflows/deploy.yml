@@ -26,5 +26,5 @@ jobs:
                   server: ${{ secrets.FTP_SERVER }}
                   port: 22
                   local_path: "./dist/*"
-                  remote_path: "/"
+                  remote_path: "/actionhudson/"
                   delete_remote_files: false
